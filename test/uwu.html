@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba HTML</title>
+</head>
+<body>
+    <h1 id="eti" onclick="cambiaeti()">Soy una simple pagina HTML UnU</h1>
+    <button id="azul" onmouseover="cambiaAAzul()">Soy el Azul</button>
+    <button id="rojo" onmouseover="cambiaARojo()">Soy el Rojo</button>
+    <button id="Verde" onmouseover="cambiaAVerde()">Soy el Verde</button>
+
+    <script>
+        function cambiaAAzul(){
+          
+           document.getElementById("eti").style.color= "blue";
+        }
+        function cambiaARojo(){
+            
+           document.getElementById("eti").style.color= "red";
+        }
+        function cambiaAVerde(){
+            //alert("Me hiciste click");
+           document.getElementById("eti").style.color= "green";
+        }
+        function cambiaeti(){
+           
+           document.getElementById("eti").style.color= "lightblue";
+        }
+    </script>
+</body>
+</html>
