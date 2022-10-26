@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(78, 14, 208);
+    text-align: center;
+    font-family: sunny april;
+}
+button{
+background-image: -webkit-linear-gradient(rgb(35, 188, 99),#05a967); 
+border-radius: 6px;
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: cherry lime;
+}
+.echo{
+    font-family: sunny april;
+}
